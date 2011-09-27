@@ -7,8 +7,8 @@
 get_header(); ?>
 
 <div id="featured-image">
-	<h2 class="featured-image-caption">A year ago in Rome</h2>
-	<img width='900px' src="<?php bloginfo( 'template_url' ); ?>/images/header_images/rome.jpg">
+	<h2 class="featured-image-caption">St. John's</h2>
+	<img width='900px' src="<?php bloginfo( 'template_url' ); ?>/images/header_images/harbour.jpg">
 </div>
 
 		<div id="primary">
