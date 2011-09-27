@@ -12,10 +12,8 @@ Purple:#40343E*/
 body {
     
     font: 13px/23px Droid Serif;
-=======
-    background:hsl(48,16%,94%);
+    
     font:14px/24px Georgia;
->>>>>>> parent of 3999828... Moar white!
     color:#555;
     margin:0;
     padding:0;
@@ -24,15 +22,10 @@ body {
 
 #page {
     display:block;
-    background:white;
+    background: white;
     width:931px;
-<<<<<<< HEAD
-    
-margin: 0px 50px;}
-=======
-    margin:45px auto;
-}
->>>>>>> parent of 3999828... Moar white!
+    margin: 0px 50px;
+    }
 
 
 hgroup {
@@ -48,7 +41,6 @@ hgroup {
 
 
 body.category-work hgroup {
-    background:url(images/logo-bg-work.png);
 }
 
 
@@ -130,18 +122,10 @@ a:hover {
 
 
 h1,h2,h3,h4,h5 {
-<<<<<<< HEAD
     font-family: "Droid Sans";
     color:#333;
     text-transform:uppercase;
     font-weight: normal;
-=======
-    font-family:"futura-pt-1","futura-pt-2",Helvetica;
-    ;
-    color:#333;
-    font-weight:bold;
-    text-transform:uppercase;
->>>>>>> parent of 3999828... Moar white!
 }
 
 
@@ -297,17 +281,9 @@ footer.entry-meta {
 
 h1#site-title {
     border:none;
-<<<<<<< HEAD
     font: 16px Droid Serif, arial;
     margin-top: 20px;
     letter-spacing: 1px;
-=======
-    font:500 18px "futura-pt-1","futura-pt-2",Helvetica;
-    letter-spacing:2px;
-    height:83px;
-    margin-top:40px;
-    margin-left:60px;
->>>>>>> parent of 3999828... Moar white!
 }
 
 
