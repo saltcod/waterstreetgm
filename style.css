@@ -17,6 +17,7 @@ body {
     color:#555;
     margin:0;
     padding:0;
+        background: #F2F1ED;
 }
 
 
@@ -24,8 +25,9 @@ body {
     display:block;
     background: white;
     width:931px;
-    margin: 0px 50px;
-    }
+    margin: 40px 50px;
+    padding: 15px 25px;
+}
 
 
 hgroup {
@@ -108,7 +110,7 @@ aside#nav_menu-3 {
 /* =Type------------------------------------------------------------- */
 
 a {
-    color:#D52815;
+    color: #D52815;
     -moz-transition:all 0.3s ease-out;
     -o-transition:all 0.3s ease-out;
     -webkit-transition:all .3s ease-out;
@@ -281,14 +283,13 @@ footer.entry-meta {
 
 h1#site-title {
     border:none;
-    font: 16px Droid Serif, arial;
+    font: 500 14px Gotham htf;
     margin-top: 20px;
-    letter-spacing: 1px;
 }
 
 
 h1#site-title a {
-    color: #444;
+    color: #D52815;
     margin-top:36px;
 }
 
@@ -326,8 +327,8 @@ header#nav li {
 
 
 header#nav li a {
-    color: hsl(0, 0%, 50%);
-    font: 12px Droid Serif;
+    color: #444;
+    font: 500 12px Gotham htf;
     text-transform: uppercase;
     text-decoration:none;
 }
