@@ -1,5 +1,5 @@
 /*Theme 
-Name:Waterstreet V4
+Name:Waterstreet V5
 Author:Terry Sutton
 Author URI:http://waterstreetgm.org/
 Description:A semantic,HTML5,canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
@@ -10,8 +10,13 @@ Purple:#40343E*/
 /* =Structure------------------------------------------------------------- */
 
 body {
+<<<<<<< HEAD
+    
+    font: 13px/23px Droid Serif;
+=======
     background:hsl(48,16%,94%);
     font:14px/24px Georgia;
+>>>>>>> parent of 3999828... Moar white!
     color:#555;
     margin:0;
     padding:0;
@@ -22,20 +27,24 @@ body {
     display:block;
     background:white;
     width:931px;
+<<<<<<< HEAD
+    
+margin: 0px 50px;}
+=======
     margin:45px auto;
 }
+>>>>>>> parent of 3999828... Moar white!
 
 
 hgroup {
     margin-top:36px;
     width:211px;
     float:left;
-    margin-right:146px;
-    background:url(images/logo-bg.png);
-    height:87px;
-    width:275px;
-    margin-left:-29px;
+    margin-right: 200px;
+    width: 279px;
+    
     margin-top:15px;
+    padding-bottom: 15px;
 }
 
 
@@ -62,13 +71,14 @@ body.category-confectionery hgroup {
     float:left;
     background:hsl(48,16%,94%);
     width:280px;
-    padding:20px 20px 20px;
+    padding: 3px 20px 20px;
 }
 
 
 #main {
     float:left;
-    margin-bottom:55px;
+    margin: 5px 0 55px;
+    padding: 0;
 }
 
 
@@ -121,11 +131,18 @@ a:hover {
 
 
 h1,h2,h3,h4,h5 {
+<<<<<<< HEAD
+    font-family: "Droid Sans";
+    color:#333;
+    text-transform:uppercase;
+    font-weight: normal;
+=======
     font-family:"futura-pt-1","futura-pt-2",Helvetica;
     ;
     color:#333;
     font-weight:bold;
     text-transform:uppercase;
+>>>>>>> parent of 3999828... Moar white!
 }
 
 
@@ -136,14 +153,21 @@ h1 a,h2 a,h3 a,h4 a,h5 a {
 
 
 h2.home,h1.page-title {
-    border-bottom:2px solid black;
     padding-bottom:3px;
-}
+    font-size: 20px;
+    text-transform: none;}
 
+h1.entry-title{
+    font-size: 16px;
+    border-bottom: 1px solid #ccc; 
+    text-transform: none; 
+    padding-bottom: 10px; 
+    margin-bottom: 25px;
+}
 
 h1 {
     font-size:18px;
-    border-bottom:1px solid #aaa;
+    
 }
 
 
@@ -157,8 +181,8 @@ h1 {
 
 article {
     width:520px;
-    margin-bottom:25px;
-    padding:15px 25px;
+    margin-bottom: 75px;
+    padding: 0;
 }
 
 
@@ -168,7 +192,7 @@ article.category-asides header h1 {
 
 
 article.category-asides .entry-meta {
-    border-top:4px solid #000;
+    border-top: 1px solid #444;
 }
 
 
@@ -274,16 +298,22 @@ footer.entry-meta {
 
 h1#site-title {
     border:none;
+<<<<<<< HEAD
+    font: 16px Droid Serif, arial;
+    margin-top: 20px;
+    letter-spacing: 1px;
+=======
     font:500 18px "futura-pt-1","futura-pt-2",Helvetica;
     letter-spacing:2px;
     height:83px;
     margin-top:40px;
     margin-left:60px;
+>>>>>>> parent of 3999828... Moar white!
 }
 
 
 h1#site-title a {
-    color:white;
+    color: #444;
     margin-top:36px;
 }
 
@@ -291,24 +321,24 @@ h1#site-title a {
 #site-description {
     font:500 13px "futura-pt-1","futura-pt-2",Helvetica;
     color:#AE3E01;
-    margin-left:-9999px;
-}
+    text-indent: -99999px;
+     display: none;}
 
 
 header#branding {
     float:left;
-    width:930px;
-    margin-right:130px;
-    position:relative;
+    width: 880px;
+    
+    
+    border-bottom: 1px solid #ccc;
 }
 
 
 /* =Top Navigation bar */ header#nav {
     padding:1px;
-    margin-top:50px;
-    width:518px;
+    margin-top: 33px;
+    width: 398px;
     float:left;
-    border-bottom:1px solid black;
 }
 
 
@@ -321,10 +351,9 @@ header#nav li {
 
 
 header#nav li a {
-    color:black;
-    font:500 11px "futura-pt-1","futura-pt-2",Helvetica;
-    font-weight:bold;
-    text-transform:uppercase;
+    color: hsl(0, 0%, 50%);
+    font: 12px Droid Serif;
+    text-transform: uppercase;
     text-decoration:none;
 }
 
@@ -357,20 +386,20 @@ span.header-ribbon img {
 
 
 #welcome {
-    font: 100 18px chaparral-pro-1","chaparral-pro-2,Georgia;
+    font: 100 15px chaparral-pro-1","chaparral-pro-2,Droid Serif;
     color: #444;
     width:548px;
     float:left;
     margin-right:55px;
-    margin-top:10px;
+    margin-top: 20px;
 }
 
 
 #mission {
-    font:13px/20px chaparral-pro-1","chaparral-pro-2,Georgia;
+    font:13px/20px chaparral-pro-1","chaparral-pro-2,Droid Serif;
     width:275px;
     float:left;
-    color:black;
+    color:#444;
 }
 
 
@@ -387,9 +416,9 @@ span.header-ribbon img {
 
 
 body.home article h1.entry-title a {
-    font-size:17px;
-    font-weight: 500px;
-}
+    font-size: 19px;
+    
+text-transform: none; padding-bottom: 5px;}
 
 
 /* =Featured Image */
@@ -433,7 +462,7 @@ ul#menu-sidebar {
 
 
 ul#menu-sidebar li {
-    letter-spacing:2px;
+    
 }
 
 
@@ -469,8 +498,8 @@ ul#menu-sidebar li {
 /* Confectionery */
 h2.sidebar,h1.widget-title {
     font-size:14px;
-    border-bottom:2px solid black;
-    border-top:2px solid black;
+    border-bottom:1px solid #444;
+    border-top: 1px solid #444;
     padding-top:1px;
 }
 
@@ -550,7 +579,7 @@ body.category-work .view-project a,span.view-more a {
     text-transform:uppercase;
     padding:4px;
     text-decoration:none;
-    color:black;
+    color:#444;
 }
 
 
@@ -575,7 +604,7 @@ body.page article {
 /* =Archive pages------------------------------------------------------------- */
 
 body.archive #primary {
-    margin-top: 18px;
+    
 }
 
 
@@ -741,11 +770,11 @@ body.archive #primary {
 
 
 body.category-exhibits .archive-meta p,body.category-confectionery .archive-meta p {
-    font:100 30px chaparral-pro-1","chaparral-pro-2,Georgia;
+    font: 13px Droid Serif;
     line-height:33px;
     color:hsl(6,82%,46%);
-    border-bottom:1px solid #aaa;
-    padding-bottom:26px;
+    
+    
 }
 
 
@@ -757,24 +786,21 @@ body.category-exhibits #primary,body.category-confectionery #primary {
 /* =Work Category------------------------------------------------------------- */
 
 body.category-work .archive-meta p {
-    font:100 21px chaparral-pro-1","chaparral-pro-2,Georgia;
+    font-size: 13px;
     line-height:33px;
-    color:hsl(6,82%,46%);
-    border-bottom:1px solid #aaa;
-    padding-bottom:26px;
+    color: #D52815;
+    padding-bottom: 5px;
 }
 
 
 body.category-work .archive-meta p a {
-    color:hsl(6,82%,46%);
-    background:#ccc;
     text-decoration:none;
-}
+    border-bottom: 1px solid;
+color: #D52815;}
 
 
 body.category-work .archive-meta p a:hover {
-    text-decoration:underline;
-    background:#eee;
+    color: #D52815;
 }
 
 
@@ -784,7 +810,7 @@ body.category-work #primary {
 
 
 body.category-work article {
-    width:860px;
+    width: 885px;
 }
 
 
@@ -806,16 +832,16 @@ body.category-work .entry-content p {
 /* Exhibits Category */
 body.category-exhibits article {
     width:650px;
-    padding:15px 0px;
+    padding: 0;
     float:left;
     margin-right:70px;
-    margin-left:125px;
+    margin-left: 0;
 }
 
 
 body.category-exhibits h1.entry-title,body.category-work h1.entry-title {
     font-size:13px;
-    border-top:2px solid black;
+    border-top:1px solid #444;
     border-bottom:none;
     padding-top:15px;
 }
@@ -831,7 +857,7 @@ body.category-exhibits img {
 /* =Contact page------------------------------------------------------------- */
 
 body.page h1.entry-title {
-    border-bottom:2px solid #000;
+    border-bottom: 1px solid #444;
     margin-top: 16px;
 }
 
