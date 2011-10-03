@@ -9,7 +9,8 @@
 
 	<footer id="colophon" role="contentinfo">
 			<div id="site-generator">
-				WaterstreetGM is happily powered by <a href="http://wordpress.org/" rel="generator">WordPress</a>.
+				<div id="first-line">Design + Development + WordPress</div>
+				<div id="second-line">Live from St. John's, NL</div>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -39,5 +39,5 @@ get_header();  ?>
 			</div><!-- #content -->
 		</section><!-- #primary -->
 
-<?php get_sidebar('articles'); ?>
+		<?php get_sidebar('home'); ?>
 <?php get_footer(); ?>

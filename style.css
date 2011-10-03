@@ -5,7 +5,9 @@ Author URI:http://waterstreetgm.org/
 Description:A semantic,HTML5,canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
 Version:1.1
 Red:#D52815
-Purple:#40343E*/
+Purple:#40343E*
+Yellow: #f9d445
+/
 
 /* =Structure------------------------------------------------------------- */
 
@@ -14,7 +16,7 @@ body {
     color:#555;
     margin:0;
     padding:0;
-        background: #F2F1ED;
+    background: #F2F1ED;
 }
 
 
@@ -31,7 +33,7 @@ hgroup {
     margin-top:36px;
     width:211px;
     float:left;
-    margin-right: 200px;
+    margin-right: 187px;
     width: 279px;
     
     margin-top:15px;
@@ -59,9 +61,10 @@ body.category-confectionery hgroup {
 
 #secondary {
     float:left;
-    background:hsl(48,16%,94%);
+    background:#fff;
     width:280px;
     padding: 3px 20px 20px;
+    margin-top: 15px;
 }
 
 
@@ -117,11 +120,12 @@ a {
 
 a:hover {
     text-decoration:none;
+    color: #D52815;
 }
 
 
 h1,h2,h3,h4,h5 {
-    font-family: "Droid Sans";
+    font-family: 'Gotham HTF','Droid Sans', sans-serif;
     color:#333;
     text-transform:uppercase;
     font-weight: normal;
@@ -142,11 +146,12 @@ h2.home,h1.page-title {
 }
 
 h1.entry-title{
-    font-size: 16px;
-    border-bottom: 1px solid #ccc; 
+    font-size: 18px;
+    border-bottom: 1px solid #444; 
     text-transform: none; 
     padding-bottom: 10px; 
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -282,19 +287,21 @@ footer.entry-meta {
 
 h1#site-title {
     border:none;
-    font: 500 14px Gotham htf;
+    font: 500 14px 'Gotham HTF','Droid Sans', sans-serif;
     margin-top: 20px;
 }
 
 
 h1#site-title a {
-    color: #D52815;
+    color: black;
     margin-top:36px;
+    background: #F9D445;
+    padding: 5px;
 }
 
 
 #site-description {
-    font:500 13px "futura-pt-1","futura-pt-2",Helvetica;
+    font:500 13px "futura-pt-1","futura-pt-2",Droid Sans, sans-serif;
     color:#AE3E01;
     text-indent: -99999px;
      display: none;}
@@ -312,7 +319,7 @@ header#branding {
 /* =Top Navigation bar */ header#nav {
     padding:1px;
     margin-top: 33px;
-    width: 415px;
+    width: 428px;
     float:left;
 }
 
@@ -327,7 +334,7 @@ header#nav li {
 
 header#nav li a {
     color: #444;
-    font: 500 12px Gotham htf;
+    font: 500 12px 'Gotham HTF','Droid Sans', sans-serif;
     text-transform: uppercase;
     text-decoration:none;
 }
@@ -349,95 +356,28 @@ span.header-ribbon img {
 }
 
 
-/* =Frontpage styles------------------------------------------------------------- */
-
-#front-page-about {
-    width:900px;
-    border-top:1px solid #aaa;
-    border-bottom:1px solid #aaa;
-    padding:25px 0;
-    margin-bottom:55px;
-}
-
-
-#welcome {
-    font: 100 15px chaparral-pro-1","chaparral-pro-2,Droid Serif;
-    color: #444;
-    width:548px;
-    float:left;
-    margin-right:55px;
-    margin-top: 20px;
-}
-
-
-#mission {
-    font:13px/20px chaparral-pro-1","chaparral-pro-2,Droid Serif;
-    width:275px;
-    float:left;
-    color:#444;
-}
-
-
-#mission h2 {
-    font:13px "futura-pt-1","futura-pt-2",Helvetica;
-    color:hsl(6,82%,46%);
-}
-
-
-#mission a {
-    background:#ddd;
-    text-decoration:none;
-}
-
 
 body.home article h1.entry-title a {
     font-size: 19px;
-    
-text-transform: none; padding-bottom: 5px;}
+    text-transform: none; 
+    padding-bottom: 5px;
+    }
 
 
-/* =Featured Image */
-#featured-image {
-    padding: 15px 0;
-    position:relative;
-    float: left;
-}
+ 
 
-
-.featured-image-caption {
-    position:absolute;
-    bottom:12px;
-    background: #000;
-    /* green:hsl(191,70%,38%);
-    */
-    color:#FFF;
-    font-size:13px;
-    right:15px;
-    padding:5px;
-}
-
-
-.featured-image-caption a {
-    color:#FFF;
-    border-bottom: 1px solid;
-}
-
+  
 
 /* =Sidebar------------------------------------------------------------- */
 
-#secondary {
-    background:#fff;
-}
-
-
 ul#menu-sidebar {
-    margin: 0 0 0 55px;
     padding:0;
+    text-align: center;
 }
 
 
-ul#menu-sidebar li {
-    
+header#nav li#menu-item-2120 {
+    padding-right: 0;
 }
 
 
@@ -485,7 +425,7 @@ body.category-confectionery {
 
 
 #secondary li.confectionery,#secondary li.confectionery a {
-    font:11px verdana,Helvetica;
+    font:11px verdana,Droid Sans, sans-serif;
     font-weight:normal;
     line-height:15px;
     list-style:none;
@@ -586,7 +526,7 @@ body.archive #primary {
 /* =Biographical------------------------------------------------------------- */
 
 #secondary aside.widget p,#secondary aside.widget li,#secondary aside .textwidget {
-    font: 11px/15px verdana,Helvetica;
+    font: 11px/15px verdana,Droid Sans, sans-serif;
 }
 
 
@@ -745,7 +685,7 @@ body.archive #primary {
 
 
 body.category-exhibits .archive-meta p,body.category-confectionery .archive-meta p {
-    font: 13px Droid Serif;
+    font: 13px 'Droid Serif';
     line-height:33px;
     color:hsl(6,82%,46%);
     
@@ -838,6 +778,109 @@ body.page h1.entry-title {
     border-bottom: 1px solid #444;
     margin-top: 16px;
 }
+
+
+
+
+
+/* =Homepage------------------------------------------------------------- */
+
+body.home #page {
+    width: 270px;
+    margin: 100px auto;
+    background: rgba(0,0,0,.8);
+}
+body.home #main{
+    display: none;
+}
+
+body.home hgroup {
+    width: 170px;
+    margin: 0 auto;
+}
+
+body.home #logo {
+    width: 25px;
+    margin: 0 auto;
+}
+
+body.home h1#site-title a {
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px dotted white;
+    padding-bottom: 5px;
+    background: none;
+}
+
+body.home h1#site-title {
+    text-align: center;
+    width: 269px;
+}
+body.home header#branding{
+    width: 270px;
+    float: left;
+    padding-top: 20px;
+}
+ 
+body.home header#nav{
+    width: 115px;
+    margin: 10px 90px;
+}
+
+body.home header#nav a{
+    color: #f9d445;
+}
+ body.home header#nav a:hover{
+    color: #DFB307;
+}
+ 
+
+body.home ul#menu-sidebar {
+    margin: 0;
+}
+
+
+
+body.home header#nav li {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+body.home #colophon{
+    color: white;
+    width: 290px;
+    margin-left: 0;
+    padding: 10px 0;
+    border: none;
+    font: 500 10px 'Gotham HTF','Droid Sans', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ #colophon #first-line{
+    font: 500 10px 'Gotham HTF','Droid Sans', sans-serif;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+#colophon #second-line{
+    font: 10px 'Gotham HTF','Droid Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+
+body.home header#nav li#menu-item-2120 {
+    padding-right: 30px;
+}
+
+
+
+
+
+
 
 
 /* Syntax Highlighter */
@@ -1109,4 +1152,35 @@ ul {
     margin:0;
     padding: 0;
 }
+
+
+/* =Responsive Structure
+----------------------------------------------- */
+
+@media (max-width: 850px) {
+	/* Simplify the basic layout */
+ 	#primary {
+		width: 320px;
+	}
+	
+	#secondary{
+			float: left;
+			background: none;
+			position: absolute;
+			top: 80px;
+		}
+		
+	ul#menu-sidebar li a, ul#menu-sidebar .current-menu-item a, ul#menu-sidebar .current-category-ancestor a, ul#menu-sidebar .current-post-ancestor a {
+		color: black;
+		}		
+	
+	ul#menu-sidebar li {
+		display: inline;
+		margin-right: 25px;
+	}	
+
+
+
+}/*closing media query bracket */
+
 

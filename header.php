@@ -40,6 +40,10 @@
 <?php wp_head(); ?>
 
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/ws.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.backstretch.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Andika|Istok+Web|Open+Sans:300,400,600,700,800|Questrial' rel='stylesheet' type='text/css'>
+
 
 
 </head>
@@ -47,6 +51,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
+		<div id="logo"><img src="<?php bloginfo('template_url'); ?>/images/umbrella.png"></div>
 			<hgroup>
  				<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>

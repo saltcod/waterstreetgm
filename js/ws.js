@@ -1,12 +1,10 @@
 jQuery(function($){
 	 
+ 
 
-	//Masonry for frontpage articles
-	$('#secondary #exhibits').masonry({
-		itemSelector: 'li.exhibits p a img',
-		columnWidth: 25
-	});
-
+		if($('body').hasClass('home')){
+			$.backstretch("http://localhost:8888/waterstreetgm/wp-content/themes/waterstreetv4/images/header_images/rome.jpg");
+			}
 
 // Scroll to TOP
 $(function(){

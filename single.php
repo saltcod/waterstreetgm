@@ -5,13 +5,6 @@
  */
 
 get_header(); ?>
-<?php if (in_category('articles')) : get_sidebar('articles-single')?>
-<?php else : ?>
-<?php get_sidebar(); ?>
-<?php endif; ?>
-
-
-
 
 		<div id="primary">
 			<div id="content" role="main">
@@ -26,5 +19,9 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
+	
+		<?php if (in_category('articles')) : get_sidebar('home')?>
+		<?php else : ?>
+		<?php endif; ?>
 
 <?php get_footer(); ?>
