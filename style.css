@@ -1159,7 +1159,7 @@ ul {
 
 @media (max-width: 550px) {
 	/* Simplify the basic layout */
-	body {background: green;}
+
 	#page{
 		width:380px;
 	}
