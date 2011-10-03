@@ -1157,30 +1157,103 @@ ul {
 /* =Responsive Structure
 ----------------------------------------------- */
 
-@media (max-width: 850px) {
+@media (max-width: 550px) {
 	/* Simplify the basic layout */
- 	#primary {
-		width: 320px;
+
+#page{
+	width:380px;
+}
+
+/* Menu styles */
+header#branding{
+	width:320px;
+}
+header#nav{
+	clear: left;
+	width: 100px;
+	margin-top:0;
+}
+
+ul#menu-sidebar li{
+	margin-right:5px;
+	text-align: left;
+}
+
+
+header#nav li a{
+	font-size:20px;
+}
+
+
+
+/* Work section */
+body.category-work article img {
+	border-bottom: 1px solid #EEE;
+	position:relative;
+	float: left;
+	right:0;
+}
+
+body.category-work .view-project a, span.view-more a {
+	clear: left;
+	float:left;
+	margin-top:10px;
+}
+
+ #primary {
+	width: 320px;
+	padding-left:0;
+}
+article {
+	width: 320px;
+}
+	
+#secondary{
+	display: none;
+}
+	
+body.category-work #primary,
+body.category-exhibits #primary, 
+body.category-confectionery #primary {
+	width: 380px;
 	}
-	
-	#secondary{
-			float: left;
-			background: none;
-			position: absolute;
-			top: 80px;
-		}
-		
-	ul#menu-sidebar li a, ul#menu-sidebar .current-menu-item a, ul#menu-sidebar .current-category-ancestor a, ul#menu-sidebar .current-post-ancestor a {
-		color: black;
-		}		
-	
-	ul#menu-sidebar li {
-		display: inline;
-		margin-right: 25px;
+
+body.category-exhibits article {
+	width:320px;
+}
+
+body.category-exhibits img {
+	border: 1px solid #EEE;
+	float: left;
+	margin: 10px 0;
 	}	
+	
+ul#menu-sidebar li a, 
+ul#menu-sidebar .current-menu-item a, 
+ul#menu-sidebar .current-category-ancestor a, 
+ul#menu-sidebar .current-post-ancestor a {
+	color: black;
+	}		
+
+header#nav li {
+	padding-right: 0;
+	display: block;
+}
+
+blockquote {
+font-size: 15px;
+line-height: 24px;
+width: 240px;
+}
 
 
+#colophon{
+	width:320px;
+}
 
+a#toTop {
+	display:none;
+}
 }/*closing media query bracket */
 
 
