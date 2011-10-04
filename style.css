@@ -1209,14 +1209,17 @@ ul {
 		width: 320px;
 	}
 	
+	
+	
 	#secondary{
 		display: none;
 	}
 	
 	body.category-work #primary,
+	body.category-work article,
 	body.category-exhibits #primary, 
 	body.category-confectionery #primary {
-		width: 380px;
+		width: 320px;
 		}
 
 	body.category-exhibits article {
