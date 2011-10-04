@@ -1158,7 +1158,7 @@ ul {
 ----------------------------------------------- */
 
 
-@media screen and (max-width: 481px),screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 685px),screen and (-webkit-min-device-pixel-ratio: 2) {
 	/* Simplify the basic layout */
 
 	#page{
