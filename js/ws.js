@@ -3,7 +3,7 @@ jQuery(function($){
  
 
 		if($('body').hasClass('home')){
-			$.backstretch("http://waterstreetgm.org/wp-content/themes/waterstreetv4/images/header_images/rome.jpg");
+			$.backstretch("http://waterstreetgm.org/wp-content/themes/waterstreetv4/images/header_images/harbour.jpg");
 			}
 
 // Scroll to TOP
