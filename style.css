@@ -1181,7 +1181,9 @@ ul {
 		text-align: left;
 	}
 
-
+	#logo {
+		display:none;
+	}
 	header#nav li a{
 		font-size:20px;
 	}
