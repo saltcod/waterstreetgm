@@ -1157,11 +1157,12 @@ ul {
 /* =Responsive Structure
 ----------------------------------------------- */
 
+
 @media screen and (max-width: 480px) {
 	/* Simplify the basic layout */
 
 	#page{
-		width:380px;
+		width:480px;
 	}
 
 	/* Menu styles */
