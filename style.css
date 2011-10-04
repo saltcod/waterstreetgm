@@ -1162,7 +1162,8 @@ ul {
 	/* Simplify the basic layout */
 
 	#page{
-		width:320px;
+		width:390px;
+		margin: 40px 20px;
 	}
 
 	/* Menu styles */
@@ -1206,7 +1207,7 @@ ul {
 		padding-left:0;
 	}
 	article {
-		width: 320px;
+		width: 380px;
 	}
 	
 	
@@ -1219,18 +1220,26 @@ ul {
 	body.category-work article,
 	body.category-exhibits #primary, 
 	body.category-confectionery #primary {
-		width: 320px;
+		width: 400px;
 		}
 
 	body.category-exhibits article {
 		width:320px;
 	}
-
+	body.category-work article .entry-content {
+		width: 380px;
+	}
 	body.category-exhibits img {
 		border: 1px solid #EEE;
 		float: left;
 		margin: 10px 0;
 		}	
+	
+	
+	body.category-work .entry-content p {
+		width: 380px;
+		}	
+	
 	
 	ul#menu-sidebar li a, 
 	ul#menu-sidebar .current-menu-item a, 
