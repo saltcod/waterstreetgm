@@ -43,7 +43,7 @@
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.backstretch.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Andika|Istok+Web|Open+Sans:300,400,600,700,800|Questrial' rel='stylesheet' type='text/css'>
-<meta name = "viewport" content = "width=device-width" />
+<meta name = "viewport" content = "width=420px" />
 
 
 
