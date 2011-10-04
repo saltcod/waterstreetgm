@@ -125,7 +125,7 @@ a:hover {
 
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Gotham HTF','Droid Sans', sans-serif;
+    font-family: 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     color:#333;
     text-transform:uppercase;
     font-weight: normal;
@@ -287,7 +287,7 @@ footer.entry-meta {
 
 h1#site-title {
     border:none;
-    font: 500 14px 'Gotham HTF','Droid Sans', sans-serif;
+    font: 500 14px 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     margin-top: 20px;
 }
 
@@ -334,7 +334,7 @@ header#nav li {
 
 header#nav li a {
     color: #444;
-    font: 500 12px 'Gotham HTF','Droid Sans', sans-serif;
+    font: 500 12px 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     text-transform: uppercase;
     text-decoration:none;
 }
@@ -853,21 +853,21 @@ body.home #colophon{
     margin-left: 0;
     padding: 10px 0;
     border: none;
-    font: 500 10px 'Gotham HTF','Droid Sans', sans-serif;
+    font: 500 10px 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     margin: 0;
     text-transform: uppercase;
     text-align: center;
 }
 
  #colophon #first-line{
-    font: 500 10px 'Gotham HTF','Droid Sans', sans-serif;
+    font: 500 10px 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     padding-bottom: 5px;
     text-transform: uppercase;
 
 }
 
 #colophon #second-line{
-    font: 10px 'Gotham HTF','Droid Sans', sans-serif;
+    font: 10px 'Gotham HTF','proxima-nova-1,proxima-nova-2, sans-serif', sans-serif;
     text-transform: uppercase;
 
 }
