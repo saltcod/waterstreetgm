@@ -29,7 +29,7 @@ get_header();  ?>
 				<?php /* Start the Loop */ ?>
 				<?php
 				     $args = array(
-				                   'cat' => '10',
+				                   'cat' => '45',
 				                   'post_type' => 'post',
 				                   'posts_per_page' => 15,
 				                   'paged' => ( get_query_var('paged') ? get_query_var('paged') : 1),
