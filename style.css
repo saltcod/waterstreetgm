@@ -301,7 +301,9 @@ h1#site-title a {
     background: #F9D445;
     padding: 5px;
 }
-
+header.page-header {
+    border-bottom: 1px solid #ddd;
+}
 
 #site-description {
     font:500 13px "futura-pt-1","futura-pt-2",Droid Sans, sans-serif;
