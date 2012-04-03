@@ -7,7 +7,7 @@
 get_header();  ?>
 
 		<section id="primary">
-			<div id="content" role="main">
+			<div id="content" role="main"> 
 
 				<header class="page-header">
 					<h1 class="page-title"><?php
@@ -29,7 +29,7 @@ get_header();  ?>
 				<?php /* Start the Loop */ ?>
 				<?php
 				     $args = array(
-				                   'cat' => '45',
+				                   'cat' => '10',
 				                   'post_type' => 'post',
 				                   'posts_per_page' => 15,
 				                   'paged' => ( get_query_var('paged') ? get_query_var('paged') : 1),

@@ -7,7 +7,7 @@
 
 <a id="toTop" style="display: none; "><img class="text-logo" src="<?php bloginfo('template_url'); ?>/images/scrollup.png" alt="scrollup"></a>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> 
+<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>> 
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'toolbox' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			
@@ -25,7 +25,6 @@
 	<?php else : ?>
 	<div class="entry-content clearfix">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'toolbox' ) ); ?>
-		<div class="work-featured-image"><?php the_post_thumbnail('work-thumbnails'); ?> </div>
 		
 		
 		
@@ -39,6 +38,9 @@
 		
 		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'toolbox' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
+
+	<div class="work-featured-image"><?php the_post_thumbnail('work-thumbnails'); ?> </div>
+
 	<?php endif; ?>
 	
 	

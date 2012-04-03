@@ -170,7 +170,7 @@ h1 {
 
 article {
     width:520px;
-    margin-bottom: 75px;
+    margin-bottom: 15px;
     padding: 0;
 }
 
@@ -278,8 +278,11 @@ footer.entry-meta {
     font-size:11px;
     font-style:italic;
     line-height:15px;
-    margin:15px 0 40px;
+    margin: 15px 0 40px;
     padding: 5px 10px;
+    float: left;
+    clear: both;
+    width: 100%;
 }
 
 
@@ -458,22 +461,19 @@ body.category-work article {
 
 body.category-work article .entry-content {
     float:left;
-    width:835px;
-    margin-bottom:35px;
+    width: 345px;
     position:relative;
+    margin-right: 15px;
 }
 
 
 body.category-work article img {
-    position:absolute;
-    top:20px;
-    right:-25px;
+    float: left;
     border-bottom:1px solid #eee;
 }
 
 
 body.category-work footer.entry-meta {
-    margin-top:376px;
 }
 
 
@@ -756,7 +756,6 @@ body.category-exhibits article {
 
 body.category-exhibits h1.entry-title,body.category-work h1.entry-title {
     font-size:13px;
-    border-top:1px solid #444;
     border-bottom:none;
     padding-top:15px;
     font-weight: bold;
@@ -1152,123 +1151,4 @@ ul {
     margin:0;
     padding: 0;
 }
-
-
-/* =Responsive Structure
------------------------------------------------ */
-
-
-@media screen and (max-width: 685px),screen and (-webkit-min-device-pixel-ratio: 2) {
-	/* Simplify the basic layout */
-
-	#page{
-		width:390px;
-		margin: 40px 20px;
-	}
-
-	/* Menu styles */
-	header#branding{
-		width:320px;
-	}
-	header#nav{
-		clear: left;
-		width: 100px;
-		margin-top:0;
-	}
-
-	ul#menu-sidebar li{
-		margin-right:5px;
-		text-align: left;
-	}
-
-	#logo {
-		display:none;
-	}
-	header#nav li a{
-		font-size:20px;
-	}
-
-
-
-	/* Work section */
-	body.category-work article img {
-		border-bottom: 1px solid #EEE;
-		position:relative;
-		float: left;
-		right:0;
-	}
-
-	body.category-work .view-project a, span.view-more a {
-		clear: left;
-		float:left;
-		margin-top:10px;
-	}
-
-	 #primary {
-		width: 320px;
-		padding-left:0;
-	}
-	article {
-		width: 380px;
-	}
-	
-	
-	
-	#secondary{
-		display: none;
-	}
-	
-	body.category-work #primary,
-	body.category-work article,
-	body.category-exhibits #primary, 
-	body.category-confectionery #primary {
-		width: 400px;
-		}
-
-	body.category-exhibits article {
-		width:320px;
-	}
-	body.category-work article .entry-content {
-		width: 380px;
-	}
-	body.category-exhibits img {
-		border: 1px solid #EEE;
-		float: left;
-		margin: 10px 0;
-		}	
-	
-	
-	body.category-work .entry-content p {
-		width: 380px;
-		}	
-	
-	
-	ul#menu-sidebar li a, 
-	ul#menu-sidebar .current-menu-item a, 
-	ul#menu-sidebar .current-category-ancestor a, 
-	ul#menu-sidebar .current-post-ancestor a {
-		color: black;
-		}		
-
-	header#nav li {
-		padding-right: 0;
-		display: block;
-	}
-
-	blockquote {
-	font-size: 15px;
-	line-height: 24px;
-	width: 240px;
-	}
-
-
-	#colophon{
-		width:320px;
-	}
-
-	a#toTop {
-		display:none;
-	}
-}/*closing media query bracket */
-
 
