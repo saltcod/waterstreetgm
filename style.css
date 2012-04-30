@@ -828,7 +828,7 @@ body.home header#branding{
  
 body.home header#nav{
     width: 115px;
-    margin: 10px 90px;
+    margin: 5px 77px;
 }
 
 body.home header#nav a{
@@ -849,6 +849,7 @@ body.home header#nav li {
     display: block;
     margin-bottom: 5px;
     text-align: center;
+    	width: 125px;
 }
 
 body.home #colophon{
