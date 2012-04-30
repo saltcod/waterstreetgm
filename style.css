@@ -801,12 +801,11 @@ body.home #main{
 }
 
 body.home hgroup {
-    width: 170px;
     margin: 0 auto;
 }
 
 body.home #logo {
-    width: 25px;
+    width: 10px;
     margin: 0 auto;
 }
 
@@ -820,7 +819,6 @@ body.home h1#site-title a {
 
 body.home h1#site-title {
     text-align: center;
-    width: 269px;
 }
 body.home header#branding{
     width: 270px;
