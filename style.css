@@ -330,11 +330,16 @@ header#branding {
 
 
 header#nav li {
+    float: left;
     list-style:none;
     display:inline;
-    padding-right:30px;
+    padding-right:25px;
     color:white;
 }
+
+header#nav li#menu-item-2122 {
+    padding-right: 0;
+    }
 
 
 header#nav li a {
