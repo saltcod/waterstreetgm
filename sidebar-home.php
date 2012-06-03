@@ -38,7 +38,7 @@
 					<?php endwhile; endif;
 						wp_reset_query();
 					?></ul>
-				<span class="view-more"><a href="exhibits">View the Summer exhibit &rarr;</a></span>
+				<span class="view-more"><a href="/exhibits">View the Summer exhibit &rarr;</a></span>
 				</div><!-- #exhibits -->
 				
 				
