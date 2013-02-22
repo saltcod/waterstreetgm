@@ -27,23 +27,7 @@
 					?></ul>
 					<span class="view-more"><a href="confectionery/">More Sweets? &rarr;</a></span>
 				</div><!-- #confectionery -->
-				
-				<div id="exhibits" class="widget">
-					<h2 class="sidebar">Recently Exhibited</h2>
-					<?php query_posts('category_name=exhibits&showposts=10'); ?>
-					<ul>
-					<?php if (have_posts()) : while (have_posts()) : the_post();
-						?><li class="exhibits">
-							<?php the_content(); ?>
-					<?php endwhile; endif;
-						wp_reset_query();
-					?></ul>
-				<span class="view-more"><a href="/exhibits">View the Summer exhibit &rarr;</a></span>
-				</div><!-- #exhibits -->
-				
-				
-			
-			
+
 		</div><!-- #secondary .widget-area -->
 
 
