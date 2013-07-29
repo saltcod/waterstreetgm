@@ -106,7 +106,7 @@ aside#nav_menu-3 {
     margin-left: 12px;
 }
 
-.entry-content img { max-width: 100%; }
+.entry-content img { max-width: 100%; height: auto; }
 /* =Type------------------------------------------------------------- */
 
 a {
