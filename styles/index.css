@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "base";
+@import "components/nav";
+
+body {
+
+	@apply p-12;
+
+	background-color: var(--c-yellow);
+}

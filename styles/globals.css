@@ -1,0 +1,31 @@
+@import url('index');
+
+:root {
+
+  --c-yellow: #FFE699;
+
+	--ff-serif: Georgia, serif;
+	--ff-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--ff-serif);
+  line-height: 1.75;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

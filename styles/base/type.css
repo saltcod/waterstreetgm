@@ -1,0 +1,11 @@
+
+/* @layer base {
+
+  main h1 {
+    @apply text-2xl;
+  }
+
+  main h2 {
+    @apply text-lg;
+  }
+} */
