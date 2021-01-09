@@ -8,8 +8,10 @@ export default function Layout({ children }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="container mx-auto px-4 mb-8 mt-56 text-3xl font-sans font-semibold">
-				<header>
+			<div className="container mx-auto px-4 mb-8 mt-16 text-xl font-sans font-semibold">
+				<header className="items-center flex pb-2 border-b-2 border-black">
+					<h1>WaterstreetGM</h1>
+					<span className="ml-auto text-xs">Est. 2007</span>
 					{/* <motion.h1
 						initial={{ scale: 0.5, opacity: 0 }}
 						animate={{ scale: 1, opacity: 1 }}
@@ -20,7 +22,7 @@ export default function Layout({ children }) {
 				</header>
 
 				{children}
-				<Nav />
+				{/* <Nav /> */}
 			</div>
 		</>
 	);
