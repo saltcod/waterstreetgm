@@ -8,8 +8,8 @@ export default function Layout({ children }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="container mx-auto px-4 mb-8 mt-16 text-xl font-sans font-semibold">
-				<header className="items-center flex pb-2 border-b-2 border-black">
+			<div className="container mx-auto px-48 mb-8 mt-16 text-xl font-sans font-semibold">
+				<header className="items-center flex pb-2 mb-8 border-b-2 border-black">
 					<h1>WaterstreetGM</h1>
 					<span className="ml-auto text-xs">Est. 2007</span>
 					{/* <motion.h1
