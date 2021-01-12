@@ -3,10 +3,11 @@
 @import "tailwindcss/utilities";
 @import "base";
 @import "components/nav";
+@import "components/color-picker";
 
 body {
 
 	@apply p-12;
 
-	background-color: var(--c-yellow);
+	background-color: var(--c-background);
 }

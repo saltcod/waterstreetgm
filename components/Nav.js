@@ -3,8 +3,6 @@ import { useRouter } from "next/router";
 
 export const Nav = () => {
 	const router = useRouter();
-	console.log(router.pathname);
-
 
 	return (
 		<nav className="primary-navigation text-lg uppercase pt-8 mt-12 border-t-2 border-black opacity-10">
