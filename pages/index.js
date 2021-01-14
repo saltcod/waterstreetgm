@@ -152,10 +152,9 @@ export default function Home() {
 								<li><a className="underline" href="https://www.goodreads.com/book/show/51152447-caste"><em>Caste</em> by Isabel Wilkerson</a></li>
 								<li><a className="underline" href="https://www.loveandlemons.com/cookbook/">Love and Lemons cookbook</a></li>
 								<li><a class="underline" href="https://williamsfoodequipment.com/shun-6-5-classic-master-utility-knife/">Shun - 6.5" Classic Master Utility Knife</a></li>
-
 								<li><a class="underline" href="https://www.cbc.ca/listen/live-radio/1-8-cbc-news-the-world-at-six">CBC Radio's <em>The World at Six</em></a></li>
-
 								<li><a class="underline" href="https://daringfireball.net/2020/05/dithering">Dithering Podcast</a></li>
+
 							</ul>
 						</div>
 					</div>
