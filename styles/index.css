@@ -9,5 +9,5 @@ body {
 
 	@apply p-12;
 
-	background-color: var(--c-background);
+	background-color: var(--c-light);
 }

@@ -18,7 +18,9 @@ export default function Home() {
 						</div>
 						<div className="w-3/4">
 							<p className="text-3xl font-semibold mb-8">
-							I'm Terry Sutton, a frontend developer based in Newfoundland, Canada. This is a selection of my personal and professional work.</p>
+								I'm Terry Sutton, a frontend developer based in Newfoundland, Canada. This is a
+								selection of my personal and professional work.
+							</p>
 							<div className="flex items-center">
 								<span className="text-2xl">Get in touch:</span>
 								<a href="https://twitter.com/saltcod" className="mx-4 hover:opacity-10">
@@ -91,6 +93,55 @@ export default function Home() {
 							<p className="text-3xl font-semibold mb-8">
 								In my 6 year tenure at 10up, I've worked on projects large and small for some of the
 								world's top brands. A small selection of these can be found{' '}
+								<a
+									className="border-b-4 border-black hover:border-gray-700"
+									href="https://10up.com/our-work/"
+								>
+									here
+								</a>
+								.
+							</p>
+
+							<p className="text-xl">
+								I also enjoy working on small side projects that solve specific problems. I have a{' '}
+								<a
+									href="https://github.com/saltcod/timezoner"
+									className="border-b-2 border-black hover:border-gray-700"
+								>
+									timezone converter
+								</a>{' '}
+								to help coordinate meetings with international team members, a{' '}
+								<a
+									className="border-b-2 border-black hover:border-gray-700"
+									href="http://at-the-lights.netlify.app"
+								>
+									shopping list
+								</a>{' '}
+								app that works precisely how I want it to, and I'm currently working on a
+								live-searchable index of the{' '}
+								<a
+									className="border-b-2 border-black hover:border-gray-700"
+									href="https://www.nlaa.ca/tely10/"
+								>
+									Tely 10
+								</a>
+								, an almost 100 year old 10 mile road race.{' '}
+							</p>
+						</div>
+					</div>
+
+					<div className="layout-row flex mb-48">
+						<div className="w-1/4">
+							<div className="sticky top-0">
+								<div className="font-bold text-xs">04</div>
+								<div className="font-light mb-16">Currently</div>
+								<div> 🪓 </div>
+							</div>
+						</div>
+
+						<div className="w-3/4">
+							<p className="text-3xl font-semibold mb-8">
+								"sonos, fuji, Caste, Love and lemons, knife, notion.so "
 								<a
 									className="border-b-4 border-black hover:border-gray-700"
 									href="https://10up.com/our-work/"

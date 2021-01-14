@@ -1,3 +1,27 @@
 #mint-navy + label {
-	background: linear-gradient(to left, #673ab7 50%, #03a9f4 50%);
+	background: linear-gradient(to left, #3d405b 50%, #f4f1de 50%);
+}
+#yellow-purple + label {
+	background: linear-gradient(to left, #264653 50%, #e9c46a 50%);
+}
+#blue-green + label {
+	background: linear-gradient(to left, #f1faee 50%, #f4acb7 50%);
+}
+#rosee + label {
+	background: linear-gradient(to left, #ffe5d9 50%, #9d8189 50%);
+}
+
+input.variation {
+	display: none;
+}
+
+input.variation + label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px 0;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 6px solid #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
 }

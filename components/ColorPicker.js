@@ -1,102 +1,62 @@
+import { setState, useState, useEffect } from 'react';
+
+const themes = [
+		{name: 'mint', light: '#D8E2DC', dark: '#7A7F7C' },
+		{name: 'rosee', light: '#f8edeb', dark: '#fec5bb' },
+		{name: 'yale', light: '#f1faee', dark: '#1d3557' },
+		{name: 'iceCream', light: '#feeafa', dark: '#8e9aaf' },
+ 		{name: 'ocean', light: '#caf0f8', dark: '#03045e' },
+		{name: 'lightGrey', light: '#f2e9e4', dark: '#4a4e69' },
+		{name: 'darkGrey', light: '#e0e1dd', dark: '#415a77' },
+		{name: 'black', light: '#fff', dark: '#333' },
+];
+
+
 export const ColorPicker = () => {
-	const root = window.document.documentElement;
+	let root;
+	useEffect( () => { root = document.documentElement; } );
+
+	// grab the first theme to use as the default
+	const [theme, setTheme] = useState( themes[0] );
+
+	// Change the color mode (light / dark)
+	const [mode, setMode] = useState( 'light' );
 
 	function changeColor(e) {
-		const id = e.target.id;
-		if (id == 'yellow-purple') {
-			root.style.setProperty('--c-background', '#3d405b');
-			root.style.setProperty('--c-primary', '#f4f1de');
-		}
+		const themeID = e.target.id;
+		setTheme(themes.find(theme => theme.name == themeID));
 
-		if (id == 'blue-green') {
-			root.style.setProperty('--c-background', '#264653');
-			root.style.setProperty('--c-primary', '#e9c46a');
-		}
+		root.style.setProperty('--c-light', mode == 'light' ? theme.light : theme.dark);
+		root.style.setProperty('--c-dark', mode == 'dark' ? theme.light : theme.dark);
+	}
 
-		if (id == 'mint-navy') {
-			root.style.setProperty('--c-background', '#f1faee');
-			root.style.setProperty('--c-primary', '#f4acb7');
-		}
-
-		if (id == 'rosee') {
-			root.style.setProperty('--c-background', '#ffe5d9');
-			root.style.setProperty('--c-primary', '#9d8189');
-		}
+	function toggleMode() {
+		mode == 'light' ? setMode('dark') : setMode('light')
 	}
 
 	return (
 		<div className="primary-navigation text-lg uppercase pt-8 mt-12 border-t-2 border-black opacity-10">
-			<label htmlFor="bluepurple"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="yellow-purple"
-				type="radio"
-				value="1"
-				name="color"
-			></input>
+			{themes.map( theme => {
+				const style = {
+					background: `linear-gradient(to left, ${theme.light} 50%, ${theme.dark} 50%)`
+				};
+				return (
+					<>
+						<input
+						onChange={(e) => {
+							changeColor(e);
+						}}
+						className="variation"
+						id={theme.name}
+						type="radio"
+						value="1"
+						name="color" />
+						<label style={style} htmlFor={theme.name}></label>
+					</>
+				)
+			}) }
+			<button onClick={toggleMode}>Reverse</button>
 
-			<label htmlFor="blue-green"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="blue-green"
-				type="radio"
-				value="2"
-				name="color"
-			></input>
-
-			<label htmlFor="mint-navy"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="mint-navy"
-				type="radio"
-				value="2"
-				name="color"
-			></input>
-
-			<label htmlFor="blue-green"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="blue-green"
-				type="radio"
-				value="2"
-				name="color"
-			></input>
-
-			<label htmlFor="blue-green"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="blue-green"
-				type="radio"
-				value="2"
-				name="color"
-			></input>
-
-			<label htmlFor="rosee"></label>
-			<input
-				onChange={(e) => {
-					changeColor(e);
-				}}
-				className="variation"
-				id="rosee"
-				type="radio"
-				value="2"
-				name="color"
-			></input>
 		</div>
 	);
 };
