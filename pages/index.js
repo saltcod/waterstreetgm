@@ -135,47 +135,28 @@ export default function Home() {
 							<div className="sticky top-0">
 								<div className="font-bold text-xs">04</div>
 								<div className="font-light mb-16">Currently</div>
-								<div> 🪓 </div>
+								<div> ⛱ </div>
 							</div>
 						</div>
 
 						<div className="w-3/4">
-							<p className="text-3xl font-semibold mb-8">
-								"sonos, fuji, Caste, Love and lemons, knife, notion.so "
-								<a
-									className="border-b-4 border-black hover:border-gray-700"
-									href="https://10up.com/our-work/"
-								>
-									here
-								</a>
-								.
+							<p className="text-3xl font-semibold mb-4">
+								I'm prone to getting into stuff. Deep in.
 							</p>
 
-							<p className="text-xl">
-								I also enjoy working on small side projects that solve specific problems. I have a{' '}
-								<a
-									href="https://github.com/saltcod/timezoner"
-									className="border-b-2 border-black hover:border-gray-700"
-								>
-									timezone converter
-								</a>{' '}
-								to help coordinate meetings with international team members, a{' '}
-								<a
-									className="border-b-2 border-black hover:border-gray-700"
-									href="http://at-the-lights.netlify.app"
-								>
-									shopping list
-								</a>{' '}
-								app that works precisely how I want it to, and I'm currently working on a
-								live-searchable index of the{' '}
-								<a
-									className="border-b-2 border-black hover:border-gray-700"
-									href="https://www.nlaa.ca/tely10/"
-								>
-									Tely 10
-								</a>
-								, an almost 100 year old 10 mile road race.{' '}
+							<p className="text-xl mb-8">
+								Here's a quick list of some of the things I'm reading, listening to, or otherwise "into" at the moment:
 							</p>
+
+							<ul>
+								<li><a className="underline" href="https://www.goodreads.com/book/show/51152447-caste"><em>Caste</em> by Isabel Wilkerson</a></li>
+								<li><a className="underline" href="https://www.loveandlemons.com/cookbook/">Love and Lemons cookbook</a></li>
+								<li><a class="underline" href="https://williamsfoodequipment.com/shun-6-5-classic-master-utility-knife/">Shun - 6.5" Classic Master Utility Knife</a></li>
+
+								<li><a class="underline" href="https://www.cbc.ca/listen/live-radio/1-8-cbc-news-the-world-at-six">CBC Radio's <em>The World at Six</em></a></li>
+
+								<li><a class="underline" href="https://daringfireball.net/2020/05/dithering">Dithering Podcast</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
