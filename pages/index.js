@@ -8,21 +8,21 @@ export default function Home() {
 		<Layout>
 			<main className="font-sans">
 				<div className="container px-12">
-					<div className="layout-row flex mb-48">
+					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
-							<div className="sticky top-0">
-								<div className="font-bold text-xs">01</div>
-								<div className="font-light mb-16">Welcome</div>
+						<div className="md:sticky top-0 flex md:block items-center">
+							<div className="font-bold text-xs mr-4 md:mr-0">01</div>
+								<div className="font-light md:mb-16 mr-4 md:mr-0">Welcome</div>
 								<div> 👋 </div>
 							</div>
 						</div>
-						<div className="w-3/4">
-							<p className="text-3xl font-semibold mb-8">
+						<div className="md:w-3/4">
+							<p className="text-xl md:text-3xl font-semibold mb-8">
 								I'm Terry Sutton, a frontend developer based in Newfoundland, Canada. This is a
 								selection of my personal and professional work.
 							</p>
 							<div className="flex items-center">
-								<span className="text-2xl">Get in touch:</span>
+								<span className="text-lg md:text-2xl">Get in touch:</span>
 								<a href="https://twitter.com/saltcod" className="mx-4 hover:opacity-10">
 									<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
 										<path
@@ -50,16 +50,16 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="layout-row flex mb-48">
+					<div className="layout-row md:flex mb-48 items-center">
 						<div className="w-1/4">
-							<div className="sticky top-0">
-								<div className="font-bold text-xs">02</div>
-								<div className="font-light mb-16">About</div>
+							<div className="md:sticky top-0 flex md:block items-center">
+								<div className="font-bold text-xs mr-4 md:mr-0">02</div>
+								<div className="font-light md:mb-16 mr-4 md:mr-0">About</div>
 								<div> 📜 </div>
 							</div>
 						</div>
-						<div className="w-3/4">
-							<p className="font-semibold text-3xl mb-8">
+						<div className="md:w-3/4">
+							<p className="font-semibold text-xl md:text-3xl mb-8">
 								I've been a frontend developer for some 15+ years now, working from the far Eastern
 								reaches of North America in St. John's Newfoundland.{' '}
 							</p>
@@ -80,17 +80,17 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div className="layout-row flex mb-48">
+					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
-							<div className="sticky top-0">
+							<div className="md:sticky top-0">
 								<div className="font-bold text-xs">03</div>
 								<div className="font-light mb-16">Work</div>
 								<div> 🪓 </div>
 							</div>
 						</div>
 
-						<div className="w-3/4">
-							<p className="text-3xl font-semibold mb-8">
+						<div className="md:w-3/4">
+							<p className="text-xl md:text-3xl font-semibold mb-8">
 								In my 6 year tenure at 10up, I've worked on projects large and small for some of the
 								world's top brands. A small selection of these can be found{' '}
 								<a
@@ -130,31 +130,69 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div className="layout-row flex mb-48">
+					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
-							<div className="sticky top-0">
+							<div className="md:sticky top-0">
 								<div className="font-bold text-xs">04</div>
 								<div className="font-light mb-16">Currently</div>
 								<div> ⛱ </div>
 							</div>
 						</div>
 
-						<div className="w-3/4">
-							<p className="text-3xl font-semibold mb-4">
+						<div className="md:w-3/4">
+							<p className="text-xl md:text-3xl font-semibold mb-4">
+
+
+
+
+
+
 								I'm prone to getting into stuff. Deep in.
+
+
+
+
+
+
 							</p>
 
 							<p className="text-xl mb-8">
-								Here's a quick list of some of the things I'm reading, listening to, or otherwise "into" at the moment:
+								Here's a quick list of some of the things I'm reading, listening to, or otherwise "into"
+								at the moment:
 							</p>
 
 							<ul>
-								<li><a className="underline" href="https://www.goodreads.com/book/show/51152447-caste"><em>Caste</em> by Isabel Wilkerson</a></li>
-								<li><a className="underline" href="https://www.loveandlemons.com/cookbook/">Love and Lemons cookbook</a></li>
-								<li><a class="underline" href="https://williamsfoodequipment.com/shun-6-5-classic-master-utility-knife/">Shun - 6.5" Classic Master Utility Knife</a></li>
-								<li><a class="underline" href="https://www.cbc.ca/listen/live-radio/1-8-cbc-news-the-world-at-six">CBC Radio's <em>The World at Six</em></a></li>
-								<li><a class="underline" href="https://daringfireball.net/2020/05/dithering">Dithering Podcast</a></li>
-
+								<li>
+									<a className="underline" href="https://www.goodreads.com/book/show/51152447-caste">
+										<em>Caste</em> by Isabel Wilkerson
+									</a>
+								</li>
+								<li>
+									<a className="underline" href="https://www.loveandlemons.com/cookbook/">
+										Love and Lemons cookbook
+									</a>
+								</li>
+								<li>
+									<a
+										className="underline"
+										href="https://williamsfoodequipment.com/shun-6-5-classic-master-utility-knife/"
+									>
+										Shun - 6.5" Classic Master Utility Knife
+									</a>
+								</li>
+								<li>
+									<a
+										className="underline"
+										href="https://www.cbc.ca/listen/live-radio/1-8-cbc-news-the-world-at-six"
+									>
+										CBC Radio's <em>The World at Six</em>
+									</a>
+								</li>
+								<li>
+									<a className="underline" href="https://daringfireball.net/2020/05/dithering">
+										Dithering Podcast
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
