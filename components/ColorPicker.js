@@ -7,7 +7,6 @@ const themes = [
 	{ name: 'rosee', light: '#f8edeb', dark: '#f6ab9e' },
 	{ name: 'yale', light: '#f1faee', dark: '#1d3557' },
 	{ name: 'iceCream', light: '#feeafa', dark: '#67707f' },
-	{ name: 'ocean', light: '#caf0f8', dark: '#03045e' },
 	{ name: 'lightGrey', light: '#f2e9e4', dark: '#4a4e69' },
 	{ name: 'darkGrey', light: '#e0e1dd', dark: '#415a77' },
 	{ name: 'black', light: '#fff', dark: '#333' },
@@ -45,7 +44,7 @@ export const ColorPicker = () => {
 	}
 
 	return (
-		<div className="flex items-center text-lg uppercase pt-8 mt-12 container px-4 mx-auto">
+		<div className="flex items-center text-lg uppercase pt-8 mt-12 mb-4 md:mb-48 container mx-auto overflow-x-auto">
 			{themes.map((theme, i) => {
 				const style = {
 					background: `linear-gradient(to left, ${theme.light} 50%, ${theme.dark} 50%)`,

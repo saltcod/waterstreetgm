@@ -3,10 +3,10 @@ module.exports = {
 		// removeDeprecatedGapUtilities: true,
 		// purgeLayersByDefault: true,
 	},
-	purge: {
-		enabled: true,
-		content: ['./pages/index.js', './components/ColorPicker.js'],
-	},
+	// purge: {
+	// 	enabled: true,
+	// 	content: ['./pages/**/*.js', './components/**/*.js'],
+	// },
 	theme: {
 		extend: {
 			colors: {
@@ -20,6 +20,7 @@ module.exports = {
 		extend: {
 			visibility: ['hover', 'focus'],
 			opacity: ['hover', 'focus'],
+			divideColor: ['group-hover'],
 		},
 	},
 	plugins: [],
