@@ -5,7 +5,7 @@ module.exports = {
 	},
 	purge: {
 		enabled: true,
-		content: ['./pages/index.js'],
+		content: ['./pages/index.js', './components/ColorPicker.js'],
 	},
 	theme: {
 		extend: {
