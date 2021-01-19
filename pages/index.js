@@ -133,6 +133,59 @@ export default function Home() {
 					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
 							<div className="md:sticky top-0">
+								<div className="font-bold text-xs">05</div>
+								<div className="font-light mb-16">Uses</div>
+								<div> 🖥 </div>
+							</div>
+						</div>
+
+						<div className="md:w-3/4">
+							<p className="text-xl md:text-3xl font-semibold mb-4">Things of recent interest</p>
+
+							<p className="text-xl mb-8">
+								Here's a quick list of some of the things I'm reading, listening to, or otherwise "into"
+								at the moment:
+							</p>
+
+							<ul>
+								<li>
+									<a className="underline" href="https://www.goodreads.com/book/show/51152447-caste">
+										<em>Caste</em> by Isabel Wilkerson
+									</a>
+								</li>
+								<li>
+									<a className="underline" href="https://www.loveandlemons.com/cookbook/">
+										Love and Lemons cookbook
+									</a>
+								</li>
+								<li>
+									<a
+										className="underline"
+										href="https://williamsfoodequipment.com/shun-6-5-classic-master-utility-knife/"
+									>
+										Shun - 6.5" Classic Master Utility Knife
+									</a>
+								</li>
+								<li>
+									<a
+										className="underline"
+										href="https://www.cbc.ca/listen/live-radio/1-8-cbc-news-the-world-at-six"
+									>
+										CBC Radio's <em>The World at Six</em>
+									</a>
+								</li>
+								<li>
+									<a className="underline" href="https://daringfireball.net/2020/05/dithering">
+										Dithering Podcast
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div className="layout-row md:flex mb-48">
+						<div className="w-1/4">
+							<div className="md:sticky top-0">
 								<div className="font-bold text-xs">04</div>
 								<div className="font-light mb-16">Currently</div>
 								<div> ⛱ </div>
