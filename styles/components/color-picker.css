@@ -1,0 +1,33 @@
+#mint-navy + label {
+	background: linear-gradient(to left, #3d405b 50%, #f4f1de 50%);
+}
+#yellow-purple + label {
+	background: linear-gradient(to left, #264653 50%, #e9c46a 50%);
+}
+#blue-green + label {
+	background: linear-gradient(to left, #f1faee 50%, #f4acb7 50%);
+}
+#rosee + label {
+	background: linear-gradient(to left, #ffe5d9 50%, #9d8189 50%);
+}
+
+input.variation {
+	display: none;
+}
+
+input.variation + label {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+	transition: box-shadow 300ms, border-radius 300ms;
+    width: 25px;
+
+	&:hover {
+    	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.6);
+		border-radius: 5px;
+	}
+}

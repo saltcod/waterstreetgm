@@ -1,0 +1,7 @@
+.primary-navigation {
+
+	& a:hover,
+	& .active {
+		border-bottom: 2px solid;
+	}
+}

@@ -1,0 +1,13 @@
+:root {
+	--typescale-baseline: 100%;
+
+	--fs-plus-2: 1.5rem;			/* 24px */
+	--fs-plus-1: 1.33rem;			/* 21px */
+	--fs-base: 1rem; 				/* 16px */
+	--fs-minus-1: 0.875rem; 		/* 14px */
+	--fs-minus-2: 0.75rem; 			/* 12px */
+
+	--lh-plus-2: 2; 				/* 32px */
+	--lh-plus-1: 1.75; 				/* 26px */
+	--lh-base: 1.625; 				/* 24px */
+}
