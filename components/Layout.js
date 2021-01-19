@@ -10,7 +10,7 @@ export default function Layout({ children }) {
 			</Head>
 
 			<ColorPicker />
-			<header className="mt-48">
+			<header className="mt-16 md:mt-48">
 				<span className="sr-only">Welcome to WaterstreetGM, home of Terry Sutton. Est. 2007</span>
 				{/* <motion.h1
 						initial={{ scale: 0.5, opacity: 0 }}

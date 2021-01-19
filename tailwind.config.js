@@ -17,6 +17,7 @@ module.exports = {
 		extend: {
 			visibility: ['hover', 'focus'],
 			opacity: ['hover', 'focus'],
+			divideColor: ['group-hover'],
 		},
 	},
 	plugins: [],
