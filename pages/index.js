@@ -7,11 +7,11 @@ export default function Home() {
 	return (
 		<Layout>
 			<main className="font-sans">
-				<div className="container px-12">
+				<div className="container px-4 mx-auto">
 					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
-						<div className="md:sticky top-0 flex md:block items-center">
-							<div className="font-bold text-xs mr-4 md:mr-0">01</div>
+							<div className="md:sticky top-0 flex md:block items-center">
+								<div className="font-bold text-xs mr-4 md:mr-0">01</div>
 								<div className="font-light md:mb-16 mr-4 md:mr-0">Welcome</div>
 								<div> 👋 </div>
 							</div>
@@ -50,7 +50,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="layout-row md:flex mb-48 items-center">
+					<div className="layout-row md:flex mb-48">
 						<div className="w-1/4">
 							<div className="md:sticky top-0 flex md:block items-center">
 								<div className="font-bold text-xs mr-4 md:mr-0">02</div>
@@ -140,21 +140,7 @@ export default function Home() {
 						</div>
 
 						<div className="md:w-3/4">
-							<p className="text-xl md:text-3xl font-semibold mb-4">
-
-
-
-
-
-
-								I'm prone to getting into stuff. Deep in.
-
-
-
-
-
-
-							</p>
+							<p className="text-xl md:text-3xl font-semibold mb-4">Things of recent interest</p>
 
 							<p className="text-xl mb-8">
 								Here's a quick list of some of the things I'm reading, listening to, or otherwise "into"
