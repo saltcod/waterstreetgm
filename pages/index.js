@@ -17,21 +17,29 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="md:w-3/4">
-							<p className="text-xl md:text-3xl font-semibold mb-8 -inset-3.5">
+							<p className="text-xl md:text-3xl font-semibold mb-8">
 								I'm Terry Sutton, a frontend developer based in Newfoundland, Canada. This is a
 								selection of my personal and professional work.
 							</p>
 							<div className="flex items-center">
 								<span className="text-lg md:text-2xl">Get in touch:</span>
 								<a href="https://twitter.com/saltcod" className="mx-4 hover:opacity-10">
-									<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" className="fill-current">
-										<path
-											d="M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zm5.48 9.356c.004.118.007.237.007.356 0 3.64-2.77 7.837-7.837 7.837a7.796 7.796 0 01-4.222-1.237 5.527 5.527 0 004.078-1.14 2.757 2.757 0 01-2.573-1.914 2.741 2.741 0 001.244-.047 2.755 2.755 0 01-2.21-2.7v-.036c.372.207.796.331 1.248.345a2.752 2.752 0 01-.852-3.677 7.82 7.82 0 005.677 2.878 2.755 2.755 0 014.694-2.512 5.524 5.524 0 001.748-.669 2.765 2.765 0 01-1.21 1.524 5.493 5.493 0 001.58-.434 5.597 5.597 0 01-1.373 1.426z"
-										/>
+									<svg
+										width="24"
+										height="24"
+										xmlns="http://www.w3.org/2000/svg"
+										className="fill-current"
+									>
+										<path d="M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zm5.48 9.356c.004.118.007.237.007.356 0 3.64-2.77 7.837-7.837 7.837a7.796 7.796 0 01-4.222-1.237 5.527 5.527 0 004.078-1.14 2.757 2.757 0 01-2.573-1.914 2.741 2.741 0 001.244-.047 2.755 2.755 0 01-2.21-2.7v-.036c.372.207.796.331 1.248.345a2.752 2.752 0 01-.852-3.677 7.82 7.82 0 005.677 2.878 2.755 2.755 0 014.694-2.512 5.524 5.524 0 001.748-.669 2.765 2.765 0 01-1.21 1.524 5.493 5.493 0 001.58-.434 5.597 5.597 0 01-1.373 1.426z" />
 									</svg>
 								</a>
 								<a href="https://github.com/saltcod" className="mr-4">
-									<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" className="fill-current">
+									<svg
+										width="24"
+										height="24"
+										xmlns="http://www.w3.org/2000/svg"
+										className="fill-current"
+									>
 										<path
 											d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24
 							12.292 24 5.78 18.627.5 12 .5z"
@@ -39,7 +47,13 @@ export default function Home() {
 									</svg>
 								</a>
 								<a href="https://www.linkedin.com/in/terry-sutton-11059b1b7/">
-									<svg className="fill-current" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+									<svg
+										className="fill-current"
+										height="24"
+										viewBox="0 0 24 24"
+										width="24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
 										<path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z" />
 									</svg>
 								</a>
@@ -87,10 +101,7 @@ export default function Home() {
 							<p className="text-xl md:text-3xl font-semibold mb-8">
 								In my 6 year tenure at 10up, I've worked on projects large and small for some of the
 								world's top brands. A small selection of these can be found{' '}
-								<a
-									className="underline hover:shadow-md"
-									href="https://10up.com/our-work/"
-								>
+								<a className="underline hover:shadow-md" href="https://10up.com/our-work/">
 									here
 								</a>
 								.
@@ -98,25 +109,16 @@ export default function Home() {
 
 							<p className="text-xl">
 								I also enjoy working on small side projects that solve specific problems. I have a{' '}
-								<a
-									href="https://github.com/saltcod/timezoner"
-									className="underline hover:shadow-md"
-								>
+								<a href="https://github.com/saltcod/timezoner" className="underline hover:shadow-md">
 									timezone converter
 								</a>{' '}
 								to help coordinate meetings with international team members, a{' '}
-								<a
-									className="underline hover:shadow-md"
-									href="http://at-the-lights.netlify.app"
-								>
+								<a className="underline hover:shadow-md" href="http://at-the-lights.netlify.app">
 									shopping list
 								</a>{' '}
 								app that works precisely how I want it to, and I'm currently working on a
 								live-searchable index of the{' '}
-								<a
-									className="underline hover:shadow-md"
-									href="https://www.nlaa.ca/tely10/"
-								>
+								<a className="underline hover:shadow-md" href="https://www.nlaa.ca/tely10/">
 									Tely 10
 								</a>
 								, an almost 100 year old 10 mile road race.{' '}
@@ -132,40 +134,73 @@ export default function Home() {
 							</div>
 						</div>
 
-
 						<div className="md:w-3/4">
-							<p className="text-xl md:text-3xl font-semibold mb-4">A nod to one of my favourite sites, <a href="https://usesthis.com/" className="underline hover:shadow-md">Uses This</a></p>
-
-							<p className="text-xl mb-8">
-								A bunch of things I use to get all the things done:
+							<p className="text-xl md:text-3xl font-semibold mb-4">
+								A nod to one of my favourite sites,{' '}
+								<a href="https://usesthis.com/" className="underline hover:shadow-md">
+									Uses This
+								</a>
 							</p>
+
+							<p className="text-xl mb-8">A bunch of things I use to get all the things done:</p>
 
 							<ul>
 								<li>
-									<a className="underline hover:shadow-md" href="https://everymac.com/systems/apple/mac_mini/specs/mac-mini-core-i7-3.2-late-2018-specs.html">Mac Mini, i7, Late 2018.</a> Mostly fine but the constant fan noise drives me insane. Anxiously awaiting M1x chips for an upgrade.
+									<a
+										className="underline hover:shadow-md"
+										href="https://everymac.com/systems/apple/mac_mini/specs/mac-mini-core-i7-3.2-late-2018-specs.html"
+									>
+										Mac Mini, i7, Late 2018.
+									</a>{' '}
+									Mostly fine but the constant fan noise drives me insane. Anxiously awaiting M1x
+									chips for an upgrade.
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://www.amazon.ca/Logitech-Gaming-Advanced-Sensor-Competitive/dp/B01JPOLLTK">Logitech G mouse</a>. Good sensor/FPS number, nice and light.
+									<a
+										className="underline hover:shadow-md"
+										href="https://www.amazon.ca/Logitech-Gaming-Advanced-Sensor-Competitive/dp/B01JPOLLTK"
+									>
+										Logitech G mouse
+									</a>
+									. Good sensor/FPS number, nice and light.
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://www.dell.com/en-ca/shop/dell-ultrasharp-27-monitor-u2719d/apd/210-arcv/monitors-monitor-accessories">Dell U2719D monitor</a>. Mostly terrible.
+									<a
+										className="underline hover:shadow-md"
+										href="https://www.dell.com/en-ca/shop/dell-ultrasharp-27-monitor-u2719d/apd/210-arcv/monitors-monitor-accessories"
+									>
+										Dell U2719D monitor
+									</a>
+									. Mostly terrible.
 								</li>
-								<li><a className="underline hover:shadow-md"
+								<li>
+									<a
+										className="underline hover:shadow-md"
 										href="https://www.steelcase.com/products/office-chairs/amia/"
-									>Steelcase Amia chair</a>
+									>
+										Steelcase Amia chair
+									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md"
+									<a
+										className="underline hover:shadow-md"
 										href="https://fujifilm-x.com/global/products/cameras/x100f/"
-									>Fuji X100F</a>. Better at just about everything than my brand new iPhone.
+									>
+										Fuji X100F
+									</a>
+									. Better at just about everything than my brand new iPhone.
 								</li>
 								<li>
 									<a className="underline hover:shadow-md" href="https://www.apple.com/ca/iphone-12/">
 										iPhone 12 Mini
-									</a>. The perfect sized phone.
+									</a>
+									. The perfect sized phone.
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://arcteryx.com/ca/en/shop/mens/sawyer-coat">
+									<a
+										className="underline hover:shadow-md"
+										href="https://arcteryx.com/ca/en/shop/mens/sawyer-coat"
+									>
 										Arc'Teryx Sawyer jacket
 									</a>
 								</li>
@@ -178,12 +213,10 @@ export default function Home() {
 									</a>
 								</li>
 								<li>
-									<a
-										className="underline hover:shadow-md"
-										href="https://www.geekdesk.com/"
-									>
+									<a className="underline hover:shadow-md" href="https://www.geekdesk.com/">
 										Stand-up desk
-									</a>. I use this next to a treadmill, so I can work and work at the same time.
+									</a>
+									. I use this next to a treadmill, so I can work and work at the same time.
 								</li>
 							</ul>
 						</div>
@@ -197,28 +230,36 @@ export default function Home() {
 							</div>
 						</div>
 
-
 						<div className="md:w-3/4">
 							<p className="text-xl md:text-3xl font-semibold mb-4">Things of recent interest</p>
 
 							<p className="text-xl mb-8">
-								Here's a quick list of some of the things I'm reading, listening to, using, or otherwise "into"
-								at the moment:
+								Here's a quick list of some of the things I'm reading, listening to, using, or otherwise
+								"into" at the moment:
 							</p>
 
 							<ul>
 								<li>
-									<a className="underline hover:shadow-md hover:shadow-md" href="https://www.goodreads.com/book/show/51152447-caste">
+									<a
+										className="underline hover:shadow-md hover:shadow-md"
+										href="https://www.goodreads.com/book/show/51152447-caste"
+									>
 										<em>Caste</em> by Isabel Wilkerson
 									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://www.goodreads.com/book/show/38709.Holes">
+									<a
+										className="underline hover:shadow-md"
+										href="https://www.goodreads.com/book/show/38709.Holes"
+									>
 										<em>Holes</em> by Louis Sachar
 									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://www.loveandlemons.com/cookbook/">
+									<a
+										className="underline hover:shadow-md"
+										href="https://www.loveandlemons.com/cookbook/"
+									>
 										Love and Lemons cookbook
 									</a>
 								</li>
@@ -232,7 +273,10 @@ export default function Home() {
 									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://daringfireball.net/2020/05/dithering">
+									<a
+										className="underline hover:shadow-md"
+										href="https://daringfireball.net/2020/05/dithering"
+									>
 										Dithering Podcast
 									</a>
 								</li>
@@ -242,12 +286,18 @@ export default function Home() {
 									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="https://www.courtneymarieandrews.com/">
+									<a
+										className="underline hover:shadow-md"
+										href="https://www.courtneymarieandrews.com/"
+									>
 										Courtney Marie Andrews
 									</a>
 								</li>
 								<li>
-									<a className="underline hover:shadow-md" href="http://www.wumb.org/listenlive/listen.php">
+									<a
+										className="underline hover:shadow-md"
+										href="http://www.wumb.org/listenlive/listen.php"
+									>
 										WUMB
 									</a>
 								</li>
